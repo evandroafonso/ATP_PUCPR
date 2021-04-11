@@ -1,4 +1,5 @@
-from datetime import datetime  # módulo será utilizado pelo código da etapa 02 para revelar a idade do cliente
+# módulo será utilizado pelo código da etapa 02 para revelar a idade do cliente
+from datetime import datetime
 
 # etapa 01 parte A
 print('Bem-vindo à loja de instrumentos musicais do Evandro Afonso Rodrigues! \n'
@@ -60,3 +61,4 @@ if (not bloqueado):
         print('Valor final com desconto: R$ {:.2f}'.format(precoFinal))
     else:
         print('Não há desconto')
+
